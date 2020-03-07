@@ -23,6 +23,7 @@ let package = Package(
                 "src",
                 "extensions"
             ]
+            , publicHeadersPath: "./include/"
             , cSettings: [
                 .headerSearchPath("include"),
                 .headerSearchPath("src"),
