@@ -3,8 +3,3 @@ module cmark_gfm [system][extern_c] {
     link "cmark_gfm"
     export *
 }
-
-module libcmark [system][extern_c] {
-    link "cmark_gfm"
-    export *
-}

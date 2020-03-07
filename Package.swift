@@ -64,6 +64,9 @@ let package = Package(
             ],
             publicHeadersPath: "./include/"
             , cSettings: headerPaths
+            // , cSettings: [
+            //     .headerSearchPath("**")
+            // ]
         )
     ]
 )
